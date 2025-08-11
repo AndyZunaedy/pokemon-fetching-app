@@ -1,5 +1,6 @@
 <script>
-  location.replace(
-    location.pathname.replace(/\\/[^\\/]+$/, '') + '/#/pokemon-fetching-app/'
-  );
+  var pathname = location.pathname.replace(/\\/g, '/');
+  var repo = '/pokemon-fetching-app';
+  if (!pathname.startsWith(repo)) repo = '';
+  location.replace(repo + '/index.html#' + pathname.replace(repo, '') + location.search + location.hash);
 </script>
