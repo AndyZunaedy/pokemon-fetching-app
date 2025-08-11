@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PokemonFetching
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -27,3 +28,7 @@ npm run dev
 ```sh
 npm run build
 ```
+=======
+# pokemon-fetching-app
+Vue.js Pokemon Explorer with Pinia Store Management
+>>>>>>> 69bdce4a42ee327fce60ab9eba1c5ec438d4e88f
