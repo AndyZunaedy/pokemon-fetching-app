@@ -22,7 +22,7 @@ const Routes = [
 ]
 
 const Router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/pokemon-fetching-app/'),
     routes: Routes
 })
 
