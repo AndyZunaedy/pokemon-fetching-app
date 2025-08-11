@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomePokemonFetch from '../views/HomeFetchingPokemon.vue'
 import HomePokemonFetchType from '../views/HomeFetchingTypePokemon.vue'
 import HomeAllPokemon from '../views/HomeAllPokemon.vue'
@@ -22,7 +22,7 @@ const Routes = [
 ]
 
 const Router = createRouter({
-    history: createWebHistory('/pokemon-fetching-app/'),
+    history: createWebHashHistory('/pokemon-fetching-app/'),
     routes: Routes
 })
 
