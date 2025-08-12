@@ -318,7 +318,6 @@ function toggleFlip(pokemon) {
 
 onMounted(() => {
     startSlider();
-    fetchPokemonType();
 });
 
 watch(() => route.params.type, (newType, oldType) => {
