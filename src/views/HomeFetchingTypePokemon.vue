@@ -290,10 +290,10 @@ const onItemsPerPageChange = () => {
 };
 
 const jumbotronImages = ref([
-    'https://i.pinimg.com/736x/e7/5d/f9/e75df9da48863517bf6a86cca48bc05e.jpg',
-    'https://i.pinimg.com/1200x/51/91/42/5191422a000db2f6f1ab604f4e34b9bb.jpg',
-    'https://i.pinimg.com/1200x/f2/82/aa/f282aa53ca63e968f95d158fa138ef10.jpg',
-    'https://i.pinimg.com/1200x/e3/3e/a1/e33ea126464eb8c01b347636b337cc00.jpg'
+    '/images/background1.jpg',
+    '/images/background2.jpg',
+    '/images/background3.jpg',
+    '/images/background4.jpg'
 ]);
 
 const currentImageIndex = ref(0);
