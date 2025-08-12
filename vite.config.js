@@ -15,7 +15,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: '/pokemon-fetching-app/', // Nama repository Anda
+  base: '/pokemon-fetching-app/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets'
